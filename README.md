@@ -6,7 +6,6 @@ This repo contains the image upload component in react for selecting one or more
 ![capture2](https://user-images.githubusercontent.com/20178869/36060760-a43cd7de-0e75-11e8-8890-f18018ee7958.PNG)
 - The component will look like Down arrow in circle above on include.
 
-![2](https://user-images.githubusercontent.com/20178869/36057993-00487b16-0e3d-11e8-9529-7dc73123a222.PNG)
 - On clicking the down arrow the dropdown body will be visible with animation.
 - On clicking an any menu option the value of that option will be recieved in value function.
 
