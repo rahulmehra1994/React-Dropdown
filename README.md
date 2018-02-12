@@ -15,14 +15,10 @@ This repo contains the image upload component in react for selecting one or more
 - Paste it in your src directory  
 - Include the file  like: ```import ImgUploadComp from './your-directory/imgUploadComp';```
 - Place it in your code like :
-```							<Dropdown 
-								value={(val)=>{ this.actionOnValue(val) }}
-								rows={[
-					 					{label: 'Label1', value: 'value1'},
-					 					{label: 'Label2', value: 'value2'},
-										{label: 'Label3', value: 'value3'},
-				 				]}
-				 			/>```
+```<Dropdown 
+	value={(val)=>{ this.actionOnValue(val) }}
+	rows={[{label: 'Label1', value: 'value1'},{label: 'Label2', value: 'value2'},{label: 'Label3', value: 'value3'}]}
+/>```
 - On clicking an any menu option the value of that option will be recieved in value function like following:
 ```value={(val)=>{ this.actionOnValue(val) }}```
 Do whataver with the value through function like *actionOnValue()*
