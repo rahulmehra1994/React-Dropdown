@@ -12,10 +12,10 @@ This repo contains the image upload component in react for selecting one or more
 
 ## Usage
 
-- Just download the dropdown.js  
+- download or clone the dropdown repo  
 - Paste it in your src directory  
-- Include the file  like: ```import Dropdown from './your-directory/dropdown';```
-- Import the css file for default styling: ```import './your-directory/index.css';```
+- Include the file  like: ```import Dropdown from './directory_where_file_is_saved/dropdown.js';```
+- Import the css file for default styling: ```import './directory_where_file_is_saved/index.css';```
 - Place it in your code like :  
 ```
 <Dropdown 
